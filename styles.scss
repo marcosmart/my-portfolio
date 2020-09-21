@@ -645,13 +645,15 @@ body {
     ================================================================================================================ */
 
     #projects {
-        display: flex;
-        margin: auto 3.125rem 3rem;
-        justify-content: space-around;
-        gap: 100px;
+        // display: flex;
+        // margin: auto 3.125rem 3rem;
+        // justify-content: space-around;
+        // gap: 100px;
 
         .projects-div {
             padding: 9.375rem 0 0;
+
+            
 
             h2 {
                 color: $hover-alt;
@@ -659,7 +661,7 @@ body {
                 font-weight: bold;
                 font-size: 2.5rem;
                 margin-bottom: 3.125rem;
-                margin-left: 3.4375rem;
+                margin-left: 4.8rem;
 
                 &:hover {
                     text-shadow: $shadow-effect;
@@ -669,65 +671,73 @@ body {
             }
 
             .card-deck {
-                margin-bottom: 6.25rem;
+                // margin-bottom: 6.25rem;
+                display: flex;
+                flex-direction: row;
+                margin: auto 3.125rem 3rem;
+                justify-content: space-around;
+                gap: 100px;
 
-                .card {
-                    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-                    // width: 300px;
-                    // margin-bottom: 3.125rem;
-                    margin: 0 4rem 0;
-                    border: solid 1px #474747;
+                .full-card {
 
-                    &:hover {
-                        box-shadow: $shadow-effect;
+                    .card {
                         transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-                    }
-
-                    .card-img-top {
-                        width: 100%;
-                        height: 15rem;
-                        object-fit: cover;
-                    }
-
-                    .card-body {
-                        padding: 1.25rem 2.25rem 1.5rem;
-                        flex: 1 1 auto;
-                        min-height: 1px;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: flex-end;
-
-                        h3 {
-                            font-weight: bold;
-                            color: $hover-color;
-                            margin-top: 0;
-
-                            &:hover {
-                                text-shadow: $shadow-effect;
-                                color: $hover-alt;
-                                transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-                            }
+                        width: 300px;
+                        // margin-bottom: 3.125rem;
+                        margin: 0 1rem 0;
+                        border: solid 1px #474747;
+    
+                        &:hover {
+                            box-shadow: $shadow-effect;
+                            transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
                         }
-
-                        .project-buttons {
+    
+                        .card-img-top {
+                            width: 100%;
+                            height: 15rem;
+                            object-fit: cover;
+                        }
+    
+                        .card-body {
+                            padding: 1.25rem 2.25rem 1.5rem;
+                            flex: 1 1 auto;
+                            min-height: 1px;
                             display: flex;
-                            justify-content: space-between;
-                            padding: 0 1rem;
-                            margin-top: 1px;
-
-                            .btn {
-                                padding: 0;
-
-                                i {
+                            flex-direction: column;
+                            justify-content: flex-end;
+    
+                            h3 {
+                                font-weight: bold;
+                                color: $hover-color;
+                                margin-top: 0;
+    
+                                &:hover {
+                                    text-shadow: $shadow-effect;
                                     color: $hover-alt;
-                                    font-size: 2rem;
-                                    transition: 0.3s;
-                                    transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
-
-                                    &:hover {
-                                        text-shadow: $shadow-effect;
-                                        color: $hover-color;
+                                    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+                                }
+                            }
+    
+                            .project-buttons {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 0 1rem;
+                                margin-top: 1px;
+    
+                                .btn {
+                                    padding: 0;
+    
+                                    i {
+                                        color: $hover-alt;
+                                        font-size: 2rem;
+                                        transition: 0.3s;
                                         transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+    
+                                        &:hover {
+                                            text-shadow: $shadow-effect;
+                                            color: $hover-color;
+                                            transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+                                        }
                                     }
                                 }
                             }
