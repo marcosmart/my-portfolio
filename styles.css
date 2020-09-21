@@ -515,12 +515,6 @@ nav * {
                                                 PROJECTS SECTION
 
   ================================================================================================================ */
-  #projects {
-    display: flex;
-    margin: auto 3.125rem 3rem;
-    justify-content: space-around;
-    gap: 100px;
-  }
   #projects .projects-div {
     padding: 9.375rem 0 0;
   }
@@ -530,7 +524,7 @@ nav * {
     font-weight: bold;
     font-size: 2.5rem;
     margin-bottom: 3.125rem;
-    margin-left: 3.4375rem;
+    margin-left: 4.8rem;
   }
   #projects .projects-div h2:hover {
     text-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -538,23 +532,28 @@ nav * {
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
   #projects .projects-div .card-deck {
-    margin-bottom: 6.25rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto 3.125rem 3rem;
+    justify-content: space-around;
+    gap: 100px;
   }
-  #projects .projects-div .card-deck .card {
+  #projects .projects-div .card-deck .full-card .card {
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    margin: 0 4rem 0;
+    width: 300px;
+    margin: 0 1rem 0;
     border: solid 1px #474747;
   }
-  #projects .projects-div .card-deck .card:hover {
+  #projects .projects-div .card-deck .full-card .card:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
-  #projects .projects-div .card-deck .card .card-img-top {
+  #projects .projects-div .card-deck .full-card .card .card-img-top {
     width: 100%;
     height: 15rem;
     object-fit: cover;
   }
-  #projects .projects-div .card-deck .card .card-body {
+  #projects .projects-div .card-deck .full-card .card .card-body {
     padding: 1.25rem 2.25rem 1.5rem;
     flex: 1 1 auto;
     min-height: 1px;
@@ -562,32 +561,32 @@ nav * {
     flex-direction: column;
     justify-content: flex-end;
   }
-  #projects .projects-div .card-deck .card .card-body h3 {
+  #projects .projects-div .card-deck .full-card .card .card-body h3 {
     font-weight: bold;
     color: #E91E63;
     margin-top: 0;
   }
-  #projects .projects-div .card-deck .card .card-body h3:hover {
+  #projects .projects-div .card-deck .full-card .card .card-body h3:hover {
     text-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     color: #19B3D3;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
-  #projects .projects-div .card-deck .card .card-body .project-buttons {
+  #projects .projects-div .card-deck .full-card .card .card-body .project-buttons {
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
     margin-top: 1px;
   }
-  #projects .projects-div .card-deck .card .card-body .project-buttons .btn {
+  #projects .projects-div .card-deck .full-card .card .card-body .project-buttons .btn {
     padding: 0;
   }
-  #projects .projects-div .card-deck .card .card-body .project-buttons .btn i {
+  #projects .projects-div .card-deck .full-card .card .card-body .project-buttons .btn i {
     color: #19B3D3;
     font-size: 2rem;
     transition: 0.3s;
     transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
-  #projects .projects-div .card-deck .card .card-body .project-buttons .btn i:hover {
+  #projects .projects-div .card-deck .full-card .card .card-body .project-buttons .btn i:hover {
     text-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     color: #E91E63;
     transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
