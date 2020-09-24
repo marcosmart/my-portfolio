@@ -541,6 +541,7 @@ nav * {
   #projects .projects-div .card-deck .full-card .card {
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     width: 300px;
+    height: 500px;
     margin: 0 1rem 0;
     border: solid 1px #474747;
   }
