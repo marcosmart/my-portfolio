@@ -59,49 +59,49 @@ body {
                                               MOBILE STARS BACKGROUND
 
 ================================================================================================================ */
-.stars-01 {
-    z-index: 9;
-    border-radius: 50%;
-    content: "";
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    box-shadow: $stars-effect;
-    animation: starsUp 10s linear infinite;
-}
+// .stars-01 {
+//     z-index: 9;
+//     border-radius: 50%;
+//     content: "";
+//     position: absolute;
+//     width: 8px;
+//     height: 8px;
+//     box-shadow: $stars-effect;
+//     animation: starsUp 10s linear infinite;
+// }
 
-.stars-02 {
-    z-index: 9;
-    border-radius: 50%;
-    content: "";
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    box-shadow: $stars-effect;
-    animation: starsUp 30s linear infinite;
-}
+// .stars-02 {
+//     z-index: 9;
+//     border-radius: 50%;
+//     content: "";
+//     position: absolute;
+//     width: 6px;
+//     height: 6px;
+//     box-shadow: $stars-effect;
+//     animation: starsUp 30s linear infinite;
+// }
 
-.stars-03 {
-    z-index: 9;
-    border-radius: 50%;
-    content: "";
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    box-shadow: $stars-effect;
-    animation: starsUp 50s linear infinite;
-}
+// .stars-03 {
+//     z-index: 9;
+//     border-radius: 50%;
+//     content: "";
+//     position: absolute;
+//     width: 6px;
+//     height: 6px;
+//     box-shadow: $stars-effect;
+//     animation: starsUp 50s linear infinite;
+// }
 
-.stars-04 {
-    z-index: 9;
-    border-radius: 50%;
-    content: "";
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    box-shadow: $stars-effect;
-    animation: starsUp 100s linear infinite;
-}
+// .stars-04 {
+//     z-index: 9;
+//     border-radius: 50%;
+//     content: "";
+//     position: absolute;
+//     width: 4px;
+//     height: 4px;
+//     box-shadow: $stars-effect;
+//     animation: starsUp 100s linear infinite;
+// }
 
 @keyframes starsUp {
     0% {
@@ -440,49 +440,49 @@ body {
 
 ================================================================================================================ */
 
-    .stars-01 {
-        z-index: 9;
-        border-radius: 50%;
-        content: "";
-        position: absolute;
-        width: 8px;
-        height: 8px;
-        box-shadow: $stars-effect;
-        animation: starsUp 10s linear infinite;
-    }
+    // .stars-01 {
+    //     z-index: 9;
+    //     border-radius: 50%;
+    //     content: "";
+    //     position: absolute;
+    //     width: 8px;
+    //     height: 8px;
+    //     box-shadow: $stars-effect;
+    //     animation: starsUp 10s linear infinite;
+    // }
     
-    .stars-02 {
-        z-index: 9;
-        border-radius: 50%;
-        content: "";
-        position: absolute;
-        width: 6px;
-        height: 6px;
-        box-shadow: $stars-effect;
-        animation: starsUp 30s linear infinite;
-    }
+    // .stars-02 {
+    //     z-index: 9;
+    //     border-radius: 50%;
+    //     content: "";
+    //     position: absolute;
+    //     width: 6px;
+    //     height: 6px;
+    //     box-shadow: $stars-effect;
+    //     animation: starsUp 30s linear infinite;
+    // }
     
-    .stars-03 {
-        z-index: 9;
-        border-radius: 50%;
-        content: "";
-        position: absolute;
-        width: 6px;
-        height: 6px;
-        box-shadow: $stars-effect;
-        animation: starsUp 50s linear infinite;
-    }
+    // .stars-03 {
+    //     z-index: 9;
+    //     border-radius: 50%;
+    //     content: "";
+    //     position: absolute;
+    //     width: 6px;
+    //     height: 6px;
+    //     box-shadow: $stars-effect;
+    //     animation: starsUp 50s linear infinite;
+    // }
     
-    .stars-04 {
-        z-index: 9;
-        border-radius: 50%;
-        content: "";
-        position: absolute;
-        width: 4px;
-        height: 4px;
-        box-shadow: $stars-effect;
-        animation: starsUp 100s linear infinite;
-    }
+    // .stars-04 {
+    //     z-index: 9;
+    //     border-radius: 50%;
+    //     content: "";
+    //     position: absolute;
+    //     width: 4px;
+    //     height: 4px;
+    //     box-shadow: $stars-effect;
+    //     animation: starsUp 100s linear infinite;
+    // }
     
     @keyframes starsUp {
         0% {
